@@ -1,0 +1,30 @@
+/* Write your code here. */
+.gallery-page-container {
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.gallery {
+  width: 60vw;
+}
+.header {
+  font-size: 25px;
+}
+.para-text {
+  font-size: 13px;
+}
+.listItems-container {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 20px;
+}
+@media (min-width: 800px) {
+  .gallery {
+    max-height: 50vh;
+  }
+}

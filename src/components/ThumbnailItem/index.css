@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+.thumbnail-card {
+  align-self: center;
+  margin: 5px;
+  max-width: 10vw;
+}
+.normal-image {
+  opacity: 0.8;
+}
+.button {
+  padding: 10px;
+  margin: 5px;
+}
+.active-image {
+  max-width: 12vw;
+  background-color: blue;
+  padding: 5px;
+}
